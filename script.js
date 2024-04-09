@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     try {
-      const response = await fetch('http://localhost:7000/register', {
+      const response = await fetch('https://bvc-sports-club-backend-1.onrender.com', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
