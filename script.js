@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
       }
 
       const data = await response.json();
-      const confirmationMessage = `ID: ${data.id}<br>Full Name: ${data.fullName}<br>Address: ${data.address}<br>Status: ${data.status}<br>Fee: ${data.fee}`;
+      const confirmationMessage = `ID: ${data.id}<br>Full Name: ${data.fullname}<br>Address: ${data.address}<br>Status: ${data.status}<br>Fee: ${data.fee}`;
 
       confirmation.innerHTML = `<h2 style="color: green;">Confirmation</h2>${confirmationMessage}`; // Display confirmation message
       confirmation.classList.remove('hidden');// Show confirmation message container
